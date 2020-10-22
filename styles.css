@@ -1039,11 +1039,12 @@ footer #footer-container #footer-icons .fab {
   }
 }
 
-@media (max-width: 805px) {
+@media (max-width: 850px) {
   main #main #main-background {
     display: none;
   }
   main #main nav {
+    width: 90%;
     margin: 0 auto;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;

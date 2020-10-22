@@ -991,13 +991,14 @@ footer {
   }
 }
 
-@media (max-width: 805px) {
+@media (max-width: 850px) {
   main {
     #main {
       #main-background {
         display: none;
       }
       nav {
+        width: 90%;
         margin: 0 auto;
         justify-content: space-between;
         #menu {
