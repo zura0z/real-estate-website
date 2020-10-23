@@ -1062,7 +1062,7 @@ footer #footer-container #footer-icons .fab {
   }
   main #main nav #menu #burger-menu {
     list-style-type: none;
-    width: 40%;
+    width: 60%;
     height: calc(100vh - 65px);
     position: absolute;
     top: 100%;
