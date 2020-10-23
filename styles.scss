@@ -30,6 +30,10 @@ nav {
     justify-content: space-between;
     width: 100%;
 
+    .hide {
+      display: none;
+    }
+
     .options {
       display: flex;
 
@@ -994,6 +998,7 @@ footer {
 @media (max-width: 850px) {
   main {
     #main {
+      position: relative;
       #main-background {
         display: none;
       }
@@ -1002,7 +1007,25 @@ footer {
         margin: 0 auto;
         justify-content: space-between;
         #menu {
-          display: none;
+          .options {
+            display: none;
+          }
+          #burger-menu {
+            list-style-type: none;
+            width: 40%;
+            height: calc(100vh - 65px);
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            li {
+              color: #1b1b1b;
+              margin: 40px auto;
+              text-align: center;
+              cursor: pointer;
+              width: fit-content;
+            }
+          }
         }
         #logo {
           margin-right: 0;
